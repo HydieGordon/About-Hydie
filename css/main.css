@@ -103,14 +103,14 @@
 
   .header-logo {
     box-sizing: border-box;
-    display: block;
+    display: inline-block;
     width: 8vw;
     height: 10vh;
     margin-left: 10px;
     text-align: center;
   }
   .header-logo:hover,
-  .header-logo:after {
+  .header-logo:active {
     background-color: #7e7e7e;
 
   }
@@ -118,33 +118,29 @@
     height: 10vh;
     width: 10vh;
   }
+  /* h3 {
+    text-align: center;
+    text-align: left;
+    display: block;
+    padding-left: 10%;
+  } */
 
   /* HERO STYLES */
   .full-hero {
     background-color: #7e7e7e;
-    /* border: solid black; */
     background-size: cover;
     box-sizing: border-box;
-    height: 60vh;
+    height: 90vh;
    }
-  .full-hero:after {
-    border:10px solid;
-    border-color: #fff transparent transparent;
-    bottom: 2vh;
-    content: "";
-    height: 0;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, 0);
-    width: 0;
-  }
+
 
   .hero-content h1 {
-    position: absolute;
+    position: relative;
     display: inline-block;
     box-sizing: border-box;
-    color: #794f48;
-    font-size: 500%;
+    color: #52c8fa;
+    font-family: 'Itim', cursive;
+    font-size: 5em;
     padding-top: 2em;
     padding-left: 3em;
     text-align: left;
@@ -155,17 +151,11 @@
   }
   .hero-home {
     background-image: url(/home/hydieg/MyDesignProjects/AboutHydie/images/hero-image.jpg);
-    background-position: center top;
+    /* background-position: center top; */
   }
 
 
-  .hero-content .social-link {
-    background-color: #52c8fa;
-  }
-    /* .hero-content .social-list  :hover,
-    .hero-content .social-list a:active {
-       text-color: #7e7e7e;
-  } */
+
   /* SOCIAL STYLES */
   .social-list {
     /* clear: right; */
@@ -174,8 +164,6 @@
     padding-top: 5.5%;
     text-align: center;
     overflow: hidden;
-
-
   }
   .social-link {
     background-color: #52c8fa;
@@ -183,28 +171,39 @@
     border-radius: 70px;
     color: #f1f4f3;
     display: inline-block;
-    width: 2em;
-    font-size: 16px;
+    width: 2.5em;
+    font-size: 18px;
     vertical-align: middle;
     padding-top: 0.7em;
     padding-bottom: 0.75em;
     text-decoration: none;
     text-align: center;
-    height: 2em;
+    height: 2.5em;
     margin-right: 10px;
     margin-top: 20px;
 
+  }
+  .social-link:hover  {
+   color: #7e7e7e;
+  }
+  .social-link {
+    background-color: #52c8fa;
   }
   .social-link >li {
     display: inline-block;
   }
 
-  .intro {
-    border: black solid;
+   .intro {
+    /* border: black solid; */
+    box-sizing: border-box;
+    color: #224d6c;
     text-align: center;
+    font-family: 'Itim', cursive;
+    font-size: 1.2em;
+    padding: 1.2em 2em;
   }
   /* BIO STYLES */
-  .bio-box  {
+   .bio-box  {
     background-color: #cfa09d;
     overflow: hidden;
   }
