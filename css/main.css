@@ -151,7 +151,7 @@
   }
   .hero-home {
     background-image: url(/home/hydieg/MyDesignProjects/AboutHydie/images/hero-image.jpg);
-    /* background-position: center top; */
+    background-position: center top;
   }
 
 
@@ -170,7 +170,7 @@
     box-sizing: border-box;
     border-radius: 70px;
     color: #f1f4f3;
-    display: inline-block;
+    display: block;
     width: 2.5em;
     font-size: 18px;
     vertical-align: middle;
