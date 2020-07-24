@@ -198,7 +198,7 @@
     color: #f1f4f3;
   }
   .hero-home {
-    background-image: url(/home/hydieg/MyDesignProjects/AboutHydie/images/hero-image.jpg);
+    background-image: url("../images/hero-image.jpg");
     background-position: center top;
   }
 
